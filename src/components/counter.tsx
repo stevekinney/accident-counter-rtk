@@ -10,7 +10,7 @@ const Counter = () => {
       </div>
       <div>
         <form onSubmit={(e) => e.preventDefault()}>
-          <input type="number" value={0} />
+          <input type="number" value={0} onChange={() => {}} />
           <button type="submit">Update Counter</button>
         </form>
       </div>
